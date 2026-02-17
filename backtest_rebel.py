@@ -339,7 +339,7 @@ def run_pair_backtest(
 
 if __name__ == "__main__":
     ETF1 = "069500"
-    ETF2 = "133690" #나스닥 133690, 키움국고채10년 148070
+    ETF2 = "148070" #나스닥 133690, 키움국고채10년 148070
     START = "2012-11-01"
     END = "2026-02-09"
 
@@ -349,5 +349,5 @@ if __name__ == "__main__":
         start=START,
         end=END,
         upd_stkpc_tp="1",
-        lookback_months=6,
+        lookback_months=12,
     )
